@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta  http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Movie App</title>
+        <script src="../js/index.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="...">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+            <header>
+                <div class="logo">
+                    <img src="../src/logo" alt="brand logo">
+                </div>
+                <nav class="navbar">
+                    <div class="search-container">
+                        <span class="search-icon"><i class="fas fa-search"></i></span>
+                        <input type="text" class="search-field" placeholder="Please enter your name">
+                        <span class="filter-icon"><i class="fas fa-filter"></i></span>
+                    </div>
+                    <div class="dropdown">
+                        <button><i class="far fa-bell"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Notification 1</a>
+                            <a href="#">Notification 2</a>
+                            <a href="#">Notification 3</a>
+                        </div>
+                    </div>
+                    <div class="avatar">
+                        <img src="../src/man.png">
+                        <div class="dropdown-profile">
+                            <a href="#">Preferecnes</a>
+                            <a href="#">Profile</a>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    
+
+                </nav>
+                
+            </header>
+            <main>
+                <nav class="sidebar">
+                    <ul>
+                        <li class="active"><i class="fas fa-home"></i> Home</li>
+                        <li><i class="fas fa-film"></i> Movies</li>
+                        <li><i class="fas fa-tv"></i> TV Shows</li>
+                        <li><i class="fas fa-tasks"></i> Series</li>
+                        <li><i class="fas fa-heart"></i> Favorites</li>
+                        <li><i class="fas fa-star"></i> Wishlist</li>
+                      </ul>
+                </nav>
+                <section class="home-content">
+                       <div class="home-thumbnail">
+                            <img src="../src/lost&found.jpg" alt ="home thumbnail">
+                            <div class="thumbnail-content">
+                                <div class="thumbnail-title">
+                                    <h2 calss="thumbnail-heading">Lost In Space 2</h2>
+                                    <p class="series-origin">A Netflix Original Series</p>
+                                    <p class="match-rate">98% Match <span class="series-year">2019</span></p>
+                                </div>
+                                <div class="buttons-container">
+                                    <button class="thumbnail-button">
+                                        <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-play fa-stack-1x fa-inverse"></i>
+                                      </span> Watch Now
+                                    </button>
+                                    <button class="thumbnail-button">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                          </span> My List
+                                    </button>
+                                </div>
+                                <div class="episodes-carrousel">
+                                    <div class="ep-holder">
+                                        <p><b>"Shipwrecked"</b> Episode 1</p>
+                                        <img src="../src/lost&foundep1.png" alt="ep1 thumbnaim">
+                                    </div>
+                                    <div class="ep-holder">
+                                        <p><b>"Precipice"</b> Episode 2</p>
+                                        <img src="../src/lost&foundep2.png" alt="ep1 thumbnaim">
+                                    </div>
+                                    <div class="ep-holder">
+                                        <p><b>"Echoes"</b> Episode 3</p>
+                                        <img src="../src/lost&foundep3.png" alt="ep1 thumbnaim">
+                                    </div>
+                                    <div class="ep-holder">
+                                        <p><b>"Scarecrow"</b> Episode 4</p>
+                                        <img src="../src/lost&foundep4.png" alt="ep1 thumbnaim">
+                                    </div>
+                                    <div class="ep-holder">
+                                        <b>"Run"</b><p>Episode 5</p>
+                                        <img src="../src/lost&foundep5.png" alt="ep1 thumbnaim">
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                       <div class="for-you">
+                            <div class="for-you-header">
+                                <h4>Recommended for you</h4>
+                                <div class="nextprev">
+                                    <i class="fas fa-chevron-left" id="prev-btn"></i>
+                                    <i class="fas fa-chevron-right" id="next-btn"></i>
+                                </div>
+                            </div>
+                            <div class="series-holder">
+                                <img src="../src/lacasa.png" alt="ep1 thumbnaim">
+                                <img src="../src/dark.png" alt="ep1 thumbnaim">
+                                <img src="../src/sacredgames.png">
+                                <img src="../src/sabrina.png" alt="ep1 thumbnaim">
+                                <img src="../src/13reasons.png" alt="ep1 thumbnaim">
+                                <img src="../src/sexeducation.png" alt="ep1 thumbnaim">
+                                <img src="../src/queensgumbit.png" alt="ep1 thumbnaim">
+                            </div>
+                       </div>
+                  </section>
+            </main>
+    </body>
+</html>
