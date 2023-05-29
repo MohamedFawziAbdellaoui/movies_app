@@ -1,0 +1,37 @@
+body{
+
+    height: 100vh;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height : 100%;
+}
+.child{
+    height: 8%;
+}
+
+#one{
+    background-color:  blue;
+}
+
+#two{
+    background-color:  rgb(61, 61, 73);
+}
+
+#three{
+    background-color:  rgb(26, 100, 105);
+}
+#four{
+    background-color:  rgb(85, 141, 22);
+}
+
+#five{
+    background-color: rgb(66, 66, 34);   
+}
+
+#six{
+    background-color: rgb(172, 35, 35);   
+}
